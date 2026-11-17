@@ -256,11 +256,11 @@ n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1096797872874022');
+fbq('init', '1428939575963523');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1096797872874022&ev=PageView&noscript=1"/></noscript>
+src="https://www.facebook.com/tr?id=1428939575963523&ev=PageView&noscript=1"/></noscript>
 <!-- End Meta Pixel -->
 <!-- Google (Ads + GA4) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-19QGF3X00Y"></script>
@@ -277,7 +277,7 @@ src="https://www.facebook.com/tr?id=1096797872874022&ev=PageView&noscript=1"/></
 <div class="grain" aria-hidden="true"></div>
 <div class="vignette" aria-hidden="true"></div>
 
-<div class="ok"><b>✓ Pedido recebido!</b> Seu acesso vai chegar no seu e-mail. Antes, veja esta oferta.</div>
+<div class="ok"><b>✓ Pedido recebido!</b> O seu Protocolo Coluna Livre chega no seu e-mail.</div>
 <div class="progress"><div class="bar"><i></i></div><p>Etapa 2 de 2 · Um passo opcional antes de terminar</p></div>
 
 <!-- ===== HERO ===== -->
@@ -286,19 +286,19 @@ src="https://www.facebook.com/tr?id=1096797872874022&ev=PageView&noscript=1"/></
   <div class="stagefloor" aria-hidden="true"></div>
   <div class="wrap hero-grid">
     <div class="copy">
-      <span class="kicker">Para quem acabou de comprar</span>
-      <h1>Você já tem o guia. Agora <em class="s">faça junto comigo,</em> em vídeo, sem errar o movimento.</h1>
-      <p class="sub">O <strong>Método 7x7</strong> mostra cada movimento no ritmo certo. Você abre o dia, <strong>dá o play e segue</strong>, sem parar para ler.</p>
+      <span class="kicker">Oferta exclusiva para quem acabou de comprar</span>
+      <h1>Quer acompanhar a rotina <em class="s">comigo, em vídeo?</em></h1>
+      <p class="sub">O guia já tem tudo que você precisa. O <strong>Método 7x7</strong> é para quem prefere <strong>dar o play e seguir junto</strong>, sem precisar parar para ler, e quer cuidar também do que puxa a lombar.</p>
       <ul class="ticks">
         <li><strong>7 dias</strong> de sequências curtas e guiadas em vídeo</li>
         <li><strong>Lombar, quadril e tronco</strong>, mais um dia para pescoço e ombros</li>
         <li>Aula de orientação e <strong>exercícios bônus</strong></li>
-        <li>Bônus: <strong>Calendário 7x7</strong> e a biblioteca <strong>50 Exercícios para Lombar</strong>, para depois dos 7 dias</li>
+        <li>Bônus: <strong>Calendário 7x7</strong> e e-book <strong>50 Exercícios para Lombar</strong></li>
       </ul>
       <div class="price-card">
         <div class="price-row">
-          <div class="price"><small>R$</small>67</div>
-          <p><b>Pagamento único</b>Junto com o seu pedido · Celular, tablet ou computador</p>
+          <div class="price"><small>R$</small>47</div>
+          <p><b>Oferta para quem acabou de comprar</b>Pagamento único · Acesso junto com o seu pedido · 7 dias de garantia</p>
         </div>
         <!-- HOTMART - Sales Funnel Widget -->
         <div id="hotmart-sales-funnel"></div>
@@ -313,11 +313,11 @@ src="https://www.facebook.com/tr?id=1096797872874022&ev=PageView&noscript=1"/></
         <div class="screen">
           <div class="vid">
             <img src="/upsell/img/01-dia1-respiracao-diafragmatica.png" alt="Print da aula em vídeo do Dia 1, respiração diafragmática">
-            <span class="playbtn"></span>
+            <span class="playbtn" id="heroPlay" style="display:none;cursor:pointer"></span>
             <div class="vbar"><span>DIA 1</span><i></i><span>Comece aqui</span></div>
           </div>
         </div>
-        <div class="float f2"><img src="/upsell/img/DIA_4__Pescoco_e_Ombros.png" alt=""></div>
+        <div class="float f2"><img src="/upsell/img/Dia_6__Movimente_Sua_Lombar.png" alt=""></div>
         <div class="reflect"></div>
       </div>
     </div>
@@ -329,6 +329,23 @@ src="https://www.facebook.com/tr?id=1096797872874022&ev=PageView&noscript=1"/></
   <span>Respiração profunda</span><span>Gato-camelo</span><span>Abertura do tronco</span><span>Giro do tronco</span><span>Joelho ao peito</span><span>Soltura do pescoço</span><span>Giro sentado</span><span>Alongamento lateral</span><span>Reverência ao sol</span><span>Extensão da coluna</span>
 </div></div>
 
+<!-- ===== PRÉVIA DIA 1: aparece quando existir /upsell/previa-dia1.mp4 ===== -->
+<section class="dark" id="previa-dia1" style="display:none">
+  <div class="wrap center">
+    <span class="kicker">▶ Veja um trecho da aula do Dia 1</span>
+    <video id="previa-dia1-v" src="/upsell/previa-dia1.mp4" controls playsinline preload="metadata" style="width:100%;max-width:640px;margin-top:18px;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.45)"></video>
+  </div>
+</section>
+
+<!-- ===== POR QUE NÃO É SÓ LOMBAR ===== -->
+<section class="dark">
+  <div class="wrap center rv">
+    <span class="kicker">Por que não é só lombar</span>
+    <h2>Sua lombar <em class="s">não trabalha sozinha</em></h2>
+    <p class="lead">Quadril travado, glúteo fraco e tronco rígido sobrecarregam a lombar o dia inteiro. Por isso o 7x7 dedica um dia a cada região que mais interfere nela, e no 7º dia junta tudo numa sequência para você repetir.</p>
+  </div>
+</section>
+
 <!-- ===== POR DENTRO ===== -->
 <section class="dark" id="dentro">
   <div class="wrap">
@@ -338,13 +355,13 @@ src="https://www.facebook.com/tr?id=1096797872874022&ev=PageView&noscript=1"/></
       <p class="lead">Cada exercício aparece em vídeo, do jeito e no ritmo certos. Sequências curtas e guiadas para você acompanhar em casa.</p>
     </div>
     <div class="vgrid">
-      <figure class="vcard big rv tilt"><div class="ph"><img src="/upsell/img/01-dia1-respiracao-diafragmatica.png" loading="lazy" alt="Vídeo do Dia 1: respiração diafragmática, deitado com as mãos no peito e na barriga"></div><span class="tag">▶ vídeo</span><span class="mini"></span><figcaption class="cap"><small>Dia 1</small>Respiração profunda</figcaption></figure>
-      <figure class="vcard rv d1 tilt"><div class="ph"><img src="/upsell/img/05-dia2-rotacao-toracica-4-apoios.png" loading="lazy" alt="Vídeo do Dia 2: rotação torácica em quatro apoios"></div><span class="tag">▶ vídeo</span><span class="mini"></span><figcaption class="cap"><small>Dia 2</small>Giro do tronco em 4 apoios</figcaption></figure>
-      <figure class="vcard rv d2 tilt"><div class="ph"><img src="/upsell/img/08-dia3-joelho-ao-peito-unilateral.png" loading="lazy" alt="Vídeo do Dia 3: joelho ao peito, uma perna de cada vez"></div><span class="tag">▶ vídeo</span><span class="mini"></span><figcaption class="cap"><small>Dia 3</small>Joelho ao peito</figcaption></figure>
-      <figure class="vcard rv d1 tilt"><div class="ph"><img src="/upsell/img/10-dia4-mobilidade-cervical.png" loading="lazy" alt="Vídeo do Dia 4: mobilidade do pescoço, sentado"></div><span class="tag">▶ vídeo</span><span class="mini"></span><figcaption class="cap"><small>Dia 4</small>Soltura do pescoço</figcaption></figure>
-      <figure class="vcard rv d2 tilt"><div class="ph"><img src="/upsell/img/13-dia5-rotacao-tronco-sentado.png" loading="lazy" alt="Vídeo do Dia 5: rotação de tronco sentado, braços cruzados"></div><span class="tag">▶ vídeo</span><span class="mini"></span><figcaption class="cap"><small>Dia 5</small>Giro do tronco sentado</figcaption></figure>
-      <figure class="vcard rv d3 tilt"><div class="ph"><img src="/upsell/img/15-dia6-semi-extensao-coluna.png" loading="lazy" alt="Vídeo do Dia 6: semi-extensão da coluna, deitado de barriga para baixo"></div><span class="tag">▶ vídeo</span><span class="mini"></span><figcaption class="cap"><small>Dia 6</small>Extensão suave da lombar</figcaption></figure>
-      <figure class="vcard wide rv d2 tilt"><div class="ph" style="aspect-ratio:21/9"><img src="/upsell/img/16-bonus-extensao-completa-coluna.png" loading="lazy" alt="Vídeo bônus: extensão completa da coluna, apoiado nas mãos" style="object-position:50% 15%"></div><span class="tag">▶ vídeo bônus</span><span class="mini"></span><figcaption class="cap"><small>Exercício bônus</small>Extensão completa da coluna</figcaption></figure>
+      <figure class="vcard big rv tilt"><div class="ph"><img src="/upsell/img/01-dia1-respiracao-diafragmatica.png" loading="lazy" alt="Vídeo do Dia 1: respiração diafragmática, deitado com as mãos no peito e na barriga"></div><span class="tag">Print da aula</span><figcaption class="cap"><small>Dia 1</small>Respiração profunda</figcaption></figure>
+      <figure class="vcard rv d1 tilt"><div class="ph"><img src="/upsell/img/05-dia2-rotacao-toracica-4-apoios.png" loading="lazy" alt="Vídeo do Dia 2: rotação torácica em quatro apoios"></div><span class="tag">Print da aula</span><figcaption class="cap"><small>Dia 2</small>Giro do tronco em 4 apoios</figcaption></figure>
+      <figure class="vcard rv d2 tilt"><div class="ph"><img src="/upsell/img/08-dia3-joelho-ao-peito-unilateral.png" loading="lazy" alt="Vídeo do Dia 3: joelho ao peito, uma perna de cada vez"></div><span class="tag">Print da aula</span><figcaption class="cap"><small>Dia 3</small>Joelho ao peito</figcaption></figure>
+      <figure class="vcard rv d1 tilt"><div class="ph"><img src="/upsell/img/10-dia4-mobilidade-cervical.png" loading="lazy" alt="Vídeo do Dia 4: mobilidade do pescoço, sentado"></div><span class="tag">Print da aula</span><figcaption class="cap"><small>Dia 4</small>Soltura do pescoço</figcaption></figure>
+      <figure class="vcard rv d2 tilt"><div class="ph"><img src="/upsell/img/13-dia5-rotacao-tronco-sentado.png" loading="lazy" alt="Vídeo do Dia 5: rotação de tronco sentado, braços cruzados"></div><span class="tag">Print da aula</span><figcaption class="cap"><small>Dia 5</small>Giro do tronco sentado</figcaption></figure>
+      <figure class="vcard rv d3 tilt"><div class="ph"><img src="/upsell/img/15-dia6-semi-extensao-coluna.png" loading="lazy" alt="Vídeo do Dia 6: semi-extensão da coluna, deitado de barriga para baixo"></div><span class="tag">Print da aula</span><figcaption class="cap"><small>Dia 6</small>Extensão suave da lombar</figcaption></figure>
+      <figure class="vcard wide rv d2 tilt"><div class="ph" style="aspect-ratio:21/9"><img src="/upsell/img/16-bonus-extensao-completa-coluna.png" loading="lazy" alt="Vídeo bônus: extensão completa da coluna, apoiado nas mãos" style="object-position:50% 15%"></div><span class="tag">Print da aula bônus</span><figcaption class="cap"><small>Exercício bônus</small>Extensão completa da coluna</figcaption></figure>
     </div>
   </div>
 </section>
@@ -359,13 +376,13 @@ src="https://www.facebook.com/tr?id=1096797872874022&ev=PageView&noscript=1"/></
   <div class="flow rv d1">
     <div class="flow-track" id="flow">
       <article class="day"><div class="cv-css"><b>ORIENTAÇÕES</b><span>ANTES DE COMEÇAR</span></div><div class="tx"><small>Aula de abertura</small><h3>Orientações</h3><p>Como fazer o programa, no seu ritmo e com segurança.</p></div></article>
-      <article class="day"><div class="cv"><img src="/upsell/img/Dia_1__Comece_Aqui.png" loading="lazy" alt="Capa do módulo Dia 1, Comece aqui"></div><div class="tx"><small>Dia 1</small><h3>Comece aqui</h3><p>Respiração, gato-camelo e reverência ao sol para acordar o corpo.</p></div></article>
-      <article class="day"><div class="cv"><img src="/upsell/img/DIA_2__Solte_Sua_Coluna.png" loading="lazy" alt="Capa do módulo Dia 2, Solte sua coluna"></div><div class="tx"><small>Dia 2</small><h3>Solte sua coluna</h3><p>Rotações para dar mais mobilidade à coluna e ao tronco.</p></div></article>
-      <article class="day"><div class="cv"><img src="/upsell/img/Dia_3__Quadril_e_Gluteos.png" loading="lazy" alt="Capa do módulo Dia 3, Quadril e glúteos"></div><div class="tx"><small>Dia 3</small><h3>Quadril e glúteos</h3><p>Alongamentos para soltar o quadril e a região dos glúteos.</p></div></article>
-      <article class="day"><div class="cv"><img src="/upsell/img/DIA_4__Pescoco_e_Ombros.png" loading="lazy" alt="Capa do módulo Dia 4, Pescoço e ombros"></div><div class="tx"><small>Dia 4</small><h3>Pescoço e ombros</h3><p>Mobilidade e alongamentos para a parte de cima das costas.</p></div></article>
-      <article class="day"><div class="cv"><img src="/upsell/img/Dia_5__Tronco_Mais_Solto.png" loading="lazy" alt="Capa do módulo Dia 5, Tronco mais solto"></div><div class="tx"><small>Dia 5</small><h3>Tronco mais solto</h3><p>Rotação e alongamento lateral, sentado e no chão.</p></div></article>
-      <article class="day"><div class="cv"><img src="/upsell/img/Dia_6__Movimente_Sua_Lombar.png" loading="lazy" alt="Capa do módulo Dia 6, Movimente sua lombar"></div><div class="tx"><small>Dia 6</small><h3>Movimente sua lombar</h3><p>Movimentos suaves de extensão e rotação para a lombar.</p></div></article>
-      <article class="day"><div class="cv"><img src="/upsell/img/Dia_7__Sua_Rotina_Completa.png" loading="lazy" alt="Capa do módulo Dia 7, Sua rotina completa"></div><div class="tx"><small>Dia 7</small><h3>Sua rotina completa</h3><p>A sequência que junta tudo, para você repetir depois.</p></div></article>
+      <article class="day"><div class="cv"><img src="/upsell/img/Dia_1__Comece_Aqui.png" loading="lazy" alt="Capa do módulo Dia 1, Comece aqui"></div><div class="tx"><small>Dia 1</small><h3>Comece aqui</h3><p>Respiração e movimentos para acordar a coluna.</p></div></article>
+      <article class="day"><div class="cv"><img src="/upsell/img/DIA_2__Solte_Sua_Coluna.png" loading="lazy" alt="Capa do módulo Dia 2, Solte sua coluna"></div><div class="tx"><small>Dia 2</small><h3>Solte sua coluna</h3><p>Rotações para dar mobilidade ao tronco.</p></div></article>
+      <article class="day"><div class="cv"><img src="/upsell/img/Dia_3__Quadril_e_Gluteos.png" loading="lazy" alt="Capa do módulo Dia 3, Quadril e glúteos"></div><div class="tx"><small>Dia 3</small><h3>Quadril e glúteos</h3><p>A região que mais puxa a lombar.</p></div></article>
+      <article class="day"><div class="cv"><img src="/upsell/img/DIA_4__Pescoco_e_Ombros.png" loading="lazy" alt="Capa do módulo Dia 4, Pescoço e ombros"></div><div class="tx"><small>Dia 4</small><h3>Pescoço e ombros</h3><p>Para quem passa o dia no computador ou no celular.</p></div></article>
+      <article class="day"><div class="cv"><img src="/upsell/img/Dia_5__Tronco_Mais_Solto.png" loading="lazy" alt="Capa do módulo Dia 5, Tronco mais solto"></div><div class="tx"><small>Dia 5</small><h3>Tronco mais solto</h3><p>Rotação e alongamento lateral.</p></div></article>
+      <article class="day"><div class="cv"><img src="/upsell/img/Dia_6__Movimente_Sua_Lombar.png" loading="lazy" alt="Capa do módulo Dia 6, Movimente sua lombar"></div><div class="tx"><small>Dia 6</small><h3>Movimente sua lombar</h3><p>Extensão e rotação suaves.</p></div></article>
+      <article class="day"><div class="cv"><img src="/upsell/img/Dia_7__Sua_Rotina_Completa.png" loading="lazy" alt="Capa do módulo Dia 7, Sua rotina completa"></div><div class="tx"><small>Dia 7</small><h3>Sua rotina completa</h3><p>A sequência final para repetir sempre.</p></div></article>
       <article class="day"><div class="cv"><img src="/upsell/img/Bonus_de_Exercicios_em_Turquesa.png" loading="lazy" alt="Capa do módulo de exercícios bônus"></div><div class="tx"><small>Bônus</small><h3>Exercícios bônus</h3><p>Reverência ao sol e extensão completa da coluna.</p></div></article>
     </div>
     <div class="flow-nav"><button type="button" id="prev" aria-label="Anterior">←</button><button type="button" id="next" aria-label="Próximo">→</button></div>
@@ -376,8 +393,9 @@ src="https://www.facebook.com/tr?id=1096797872874022&ev=PageView&noscript=1"/></
 <section>
   <div class="wrap">
     <div class="center rv">
-      <span class="kicker">Um completa o outro</span>
-      <h2>O guia mostra <em class="s">o que fazer.</em><br>O vídeo mostra <em class="s">como fazer.</em></h2>
+      <span class="kicker">Como os dois se completam</span>
+      <h2>O guia é a sua <em class="s">consulta rápida.</em><br>O vídeo é o seu <em class="s">acompanhamento.</em></h2>
+      <p class="lead">No guia, você abre, olha e faz. No vídeo, você vê o ritmo, a amplitude e a respiração de cada movimento.</p>
     </div>
     <div class="versus">
       <div class="vs-card rv tilt"><span class="lbl">Você já tem</span><h3>Protocolo Coluna Livre</h3>
@@ -397,8 +415,8 @@ src="https://www.facebook.com/tr?id=1096797872874022&ev=PageView&noscript=1"/></
       <h2>Dois bônus <em class="s">no mesmo acesso</em></h2>
     </div>
     <div class="bonus">
-      <div class="b-card rv tilt"><div class="cv"><img src="/upsell/img/Calendario_7x7__Desafio_Completo.png" loading="lazy" alt="Capa do Calendário 7x7"></div><div class="tx"><small>BÔNUS 1</small><h3>Calendário 7x7</h3><p>Para imprimir e marcar cada dia concluído.</p></div></div>
-      <div class="b-card rv d1 tilt"><div class="cv"><img src="/upsell/img/50_Exercicios_para_Lombar_em_PDF.png" loading="lazy" alt="Capa do e-book 50 Exercícios para Lombar"></div><div class="tx"><small>BÔNUS 2</small><h3>Biblioteca 50 Exercícios para Lombar</h3><p>Para consultar depois dos 7 dias, quando quiser variar a rotina.</p></div></div>
+      <div class="b-card rv tilt"><div class="cv"><img src="/upsell/img/Calendario_7x7__Desafio_Completo.png" loading="lazy" alt="Capa do Calendário 7x7"></div><div class="tx"><small>BÔNUS 1</small><h3>Calendário 7x7</h3><p>Para marcar cada dia concluído.</p></div></div>
+      <div class="b-card rv d1 tilt"><div class="cv"><img src="/upsell/img/50_Exercicios_para_Lombar_em_PDF.png" loading="lazy" alt="Capa do e-book 50 Exercícios para Lombar"></div><div class="tx"><small>BÔNUS 2</small><h3>E-book 50 Exercícios para Lombar</h3><p>Do básico ao avançado.</p></div></div>
     </div>
   </div>
 </section>
@@ -422,17 +440,17 @@ src="https://www.facebook.com/tr?id=1096797872874022&ev=PageView&noscript=1"/></
     <p class="lead">Vídeo guiado, junto com o acesso ao Protocolo Coluna Livre.</p>
     <div class="price-card">
       <div class="price-row">
-        <div class="price"><small>R$</small>67</div>
-        <p><b>Pagamento único</b>Acesso junto com o seu pedido · Garantia de 7 dias</p>
+        <div class="price"><small>R$</small>47</div>
+        <p><b>Oferta para quem acabou de comprar</b>Pagamento único · Acesso junto com o seu pedido · 7 dias de garantia</p>
       </div>
-      <a href="#hotmart-sales-funnel" class="btn">SIM, QUERO O MÉTODO 7x7 <span class="arr">→</span></a>
+      <a href="#hotmart-sales-funnel" class="btn">SIM, QUERO ACOMPANHAR EM VÍDEO <span class="arr">→</span></a>
     </div>
   </div>
 </section>
 
 <footer>
   <p><strong>Método 7x7 · Protocolo Coluna Livre</strong> · Dr. Pablo Andrade · CREFITO-4 310763-F</p>
-  <p>CPF 129.198.386-44 · Avenida Ipiranga, 350 · Três Pontas - MG · CEP 37187-000</p>
+  <p>Avenida Ipiranga, 350 · Três Pontas - MG · CEP 37187-000</p>
   <p>Atendimento: <a href="mailto:pabloandradeoficial@gmail.com">pabloandradeoficial@gmail.com</a></p>
   <p class="legal-links"><a href="#termos">Termos de Uso</a> · <a href="#privacidade">Política de Privacidade</a></p>
   <p class="disc">Conteúdo educativo, que não substitui avaliação, diagnóstico ou tratamento individual. Os resultados variam de pessoa para pessoa. Este site não é afiliado ao Facebook, ao Instagram nem ao Google.</p>
@@ -580,10 +598,13 @@ src="https://www.facebook.com/tr?id=1096797872874022&ev=PageView&noscript=1"/></
   document.getElementById('next').onclick = () => step(1);
   setTimeout(() => { flow.scrollLeft = days[1].offsetLeft - (flow.clientWidth - days[1].offsetWidth) / 2; coverflow(); }, 50);
 </script>
+<script>
+  (function(){var v=document.getElementById('previa-dia1-v');if(!v)return;v.addEventListener('loadedmetadata',function(){var sec=document.getElementById('previa-dia1');sec.style.display='';var b=document.getElementById('heroPlay');if(b){b.style.display='';b.parentNode.parentNode.parentNode.parentNode.removeAttribute('aria-hidden');b.addEventListener('click',function(){sec.scrollIntoView({behavior:'smooth'});v.play();});}});})();
+</script>
 <!-- Eventos do funil — /upsell -->
 <script>
-  fbq('track', 'ViewContent', {content_name: 'Método 7x7 (upsell)', value: 67.00, currency: 'BRL'});
-  if (window.gtag) gtag('event', 'view_item', {currency: 'BRL', value: 67.00, items: [{item_name: 'Método 7x7 (upsell)'}]});
+  fbq('track', 'ViewContent', {content_name: 'Método 7x7 (upsell)', value: 47.00, currency: 'BRL'});
+  if (window.gtag) gtag('event', 'view_item', {currency: 'BRL', value: 47.00, items: [{item_name: 'Método 7x7 (upsell)'}]});
 </script>
 </body>
 </html>
